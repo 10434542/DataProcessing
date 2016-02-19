@@ -20,7 +20,7 @@
 	var graphdates = [];
 	window.canvas = document.getElementById("mycanvas");
 	window.ctx = canvas.getContext("2d");
-
+	
 	// Function that rewrites raw data to useful data
 	function rewritedata() {
 		temps = [];
