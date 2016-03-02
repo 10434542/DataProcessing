@@ -21,29 +21,30 @@
 				   return array2;
 				};
 
+	var monthform = d3.time.format("%B");
+	var dates_filtered;
+
 	// init
-	monthform = d3.time.format("%B");
 	var margin = {top: 20, right: 30, bottom: 30, left: 40},
     width = 1200 - margin.left - margin.right,
     height = 600 - margin.top - margin.bottom;
 
-    var dates_filtered;
-
+    // make chart
 	var chart = d3.select(".chart")
 	.attr("width", width + margin.left + margin.right)
 	.attr("height", height + margin.top + margin.bottom)
 	.append("g")
 	.attr("transform", "translate(" + margin.left + "," + margin.top + ")")
 
-    var y = d3.scale.linear()
-    .range([height, 0]);
-
-    var x = d3.scale.linear()
-    .range([0, width]);
-
-
     // creating barchart
 	d3.json("dataset.json", function(error, json) {
+		var y = d3.scale.linear()
+		.domain([0, d3.max(json, function(d) { return d.Rain})])
+		.range([height, 0]);
+
+		console.log(d3.max(json, function(d) { return d.Rain}))
+		var x = d3.scale.linear().domain([0,12])
+		.range([0, width]);
 
 		var len = json.length;
 		var barWidth = width / len;
@@ -54,17 +55,21 @@
 			dates.push(monthform(new Date(json[i].jsonDate)));
 		};
 		dates_filtered = filter(dates);
+		dates_filtered.push("January");
 		console.log(dates_filtered);
 
+		// define x axis
 		var xAxis = d3.svg.axis()
 		.scale(x)
-		.ticks(12).tickFormat(function(d) { console.log(dates_filtered[d]); return dates_filtered[d]})
 		.orient("bottom")
-		//.ticks(12)//.tickValues(dates_filtered);
-		// .tickFormat(function(d) { return dates_filtered[d]})
+		.ticks(12)
+		.tickFormat(function(d, i) { console.log(dates_filtered[i]); return dates_filtered[i]})
+
+		// define y axis
 		var yAxis = d3.svg.axis()
 		.scale(y)
-		.orient("left");
+		.orient("left")
+		.ticks(10);
 
 		var tip = d3.tip()
 		.attr('class', 'd3-tip')
@@ -75,18 +80,6 @@
 
 		chart.call(tip);
 
-		// 0 to 12 (january '15 to january '16)
-		x.domain([0,11]);
-		console.log(x.domain);
-
-		y.domain([0, d3.max(json, function(d) { return d.Rain})]);
-
-
-		/*console.log(getDatesD3(json, len, monthform, new Date, jsonDate));*/
-
-
-
-
 		chart.append("g")
 		.attr("class", "x axis")
 		.attr("transform", "translate(0," + height + ")")
@@ -94,18 +87,27 @@
 
 		chart.append("g")
 		.attr("class", "y axis")
-		.call(yAxis);
+		.call(yAxis)
+		.append("text")
+		.attr("transform", "rotate(-90)")
+		.attr("y", 6)
+		.attr("dy", ".71em")
+		.style("text-anchor", "end")
+		.text("Rain (in mm)");
 
 		chart.selectAll(".bar")
 		.data(json)
 		.enter().append("rect")
 		.attr("class", "bar")
+		.on('mouseover', tip.show)
+      	.on('mouseout', tip.hide)
+		.transition()
+        .delay(function (d, i) { return i*5; })
 		.attr("x", function(d, i) { return i*barWidth; })
 		.attr("y", function(d) { return y(d.Rain); })
 		.attr("height", function(d) { return height - y(d.Rain); })
-		.attr("width", barWidth)//.attr("color", "blue")
-		.on('mouseover', tip.show)
-      	.on('mouseout', tip.hide);
+		.attr("width", barWidth)
+
 	});
 
 
