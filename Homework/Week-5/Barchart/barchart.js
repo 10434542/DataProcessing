@@ -20,15 +20,13 @@
 				    };
 				   return array2;
 				};
+
+	// init
 	monthform = d3.time.format("%B");
 	var margin = {top: 20, right: 30, bottom: 30, left: 40},
     width = 1200 - margin.left - margin.right,
-    height = 500 - margin.top - margin.bottom;
+    height = 600 - margin.top - margin.bottom;
 
-
-	/*var chart = d3.select(".chart")
-    .attr("width", width +margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom);*/
     var dates_filtered;
 
 	var chart = d3.select(".chart")
@@ -44,11 +42,12 @@
     .range([0, width]);
 
 
-
+    // creating barchart
 	d3.json("dataset.json", function(error, json) {
 
 		var len = json.length;
 		var barWidth = width / len;
+		
 		// get right date format, filter this list and store into dates_filtered
 		dates =[];
 		for (var i = 0; i < len; i++) {
@@ -66,6 +65,15 @@
 		var yAxis = d3.svg.axis()
 		.scale(y)
 		.orient("left");
+
+		var tip = d3.tip()
+		.attr('class', 'd3-tip')
+		.offset([-10, 0])
+		.html(function(d) {
+		return "<strong>Rain (in mm):</strong> <span style='color:red'>" + d.Rain + "</span>";
+		})
+
+		chart.call(tip);
 
 		// 0 to 12 (january '15 to january '16)
 		x.domain([0,11]);
@@ -95,7 +103,9 @@
 		.attr("x", function(d, i) { return i*barWidth; })
 		.attr("y", function(d) { return y(d.Rain); })
 		.attr("height", function(d) { return height - y(d.Rain); })
-		.attr("width", barWidth).attr("color", "blue");
+		.attr("width", barWidth)//.attr("color", "blue")
+		.on('mouseover', tip.show)
+      	.on('mouseout', tip.hide);
 	});
 
 
