@@ -2,65 +2,24 @@
 <!-- UNDER CONSTRUCTION!!! this is def not final code for assingment next week! -->
 <html>
 <head>
+
 	<title> Monthly rain in De Bilt (KNMI)</title>
+	<h1 align = "center"> Monthly rain in De Bilt (KNMI) in 2015</h1>
 </head>
-<body>
+<body background = "Rainy.jpg">
 	<!-- Source: http://bl.ocks.org/Caged/6476579 -->
-	<style type="text/css">
-	.bar {
-		fill: blue;
-		}
-	.bar:hover {
-  	fill: purple;
-	}
-
-	.chart text {
-	  fill: white;
-	  font: 10px sans-serif;
-	  text-anchor: end;
-	}
-	.axis text {
-	font: 10px sans-serif;
-	}
-
-	.axis path,
-	.axis line {
-	fill: none;
-	stroke: #000;
-	shape-rendering: crispEdges;
-	}
-
-	.d3-tip {
-	line-height: 1;
-	font-weight: bold;
-	padding: 12px;
-	background: rgba(0, 0, 0, 0.8);
-	color: #fff;
-	border-radius: 2px;
-	}
-
-	/* Creates a small triangle extender for the tooltip */
-	.d3-tip:after {
-	box-sizing: border-box;
-	display: inline;
-	font-size: 10px;
-	width: 100%;
-	line-height: 1;
-	color: rgba(0, 0, 0, 0.8);
-	content: "\25BC";
-	position: absolute;
-	text-align: center;
-	}
-	.d3-tip.n:after {
-	margin: -1px 0 0 0;
-	top: 100%;
-	left: 0;
-	}
-	</style>
-	test test
-	<svg class = "chart"></svg>
+	<link rel="stylesheet" type="text/css" href="Barchart.css">
+	<div align = "center">
+		<svg class = "chart"></svg>
+	</div>
 	<script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
 	<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
 	<script src = "barchart.js"></script>
+	<div>
+		<p>
+			<br> In this visualization the amount of rain, for every day in 2015, is plotted.</br>
+			<br> On hover one can see the actual amount of rain for that specific day.</br>
+			<br> All the values, which were less than 0.05 mm have been set to 1.50mm in order to differentiate these from the "no rain" days.</br>
+		</p>
 </body>
 </html>

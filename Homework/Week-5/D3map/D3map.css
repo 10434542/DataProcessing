@@ -1,0 +1,21 @@
+h1{
+    color: white;
+    font-family: 'Raleway',sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 20px;
+    margin: 0 0 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+p{
+    color: white;
+    font-family: 'Raleway',sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 30px;
+    margin: 0 0 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+

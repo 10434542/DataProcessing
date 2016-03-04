@@ -1,0 +1,70 @@
+.bar {
+		fill: blue;
+		}
+	.bar:hover {
+  	fill: lightblue;
+	}
+
+	.chart text {
+	  fill: white;
+	  font: 10px sans-serif;
+	  text-anchor: end;
+	}
+	.axis text {
+	font: 10px sans-serif;
+	fill: black;
+	}
+
+	.axis path,
+	.axis line {
+	fill: none;
+	stroke: #000;
+	shape-rendering: crispEdges;
+	}
+
+	.d3-tip {
+	line-height: 1;
+	font-weight: bold;
+	padding: 12px;
+	background: rgba(0, 0, 0, 0.8);
+	color: #fff;
+	border-radius: 2px;
+	}
+
+	/* Creates a small triangle extender for the tooltip */
+	.d3-tip:after {
+	box-sizing: border-box;
+	display: inline;
+	font-size: 10px;
+	width: 100%;
+	line-height: 1;
+	color: rgba(0, 0, 0, 0.8);
+	content: "\25BC";
+	position: absolute;
+	text-align: center;
+	}
+	.d3-tip.n:after {
+	margin: -1px 0 0 0;
+	top: 100%;
+	left: 0;
+	}
+h1 {
+	color: white;
+    font-family: 'Raleway',sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 30px;
+    margin: 0 0 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+p {
+	color: white;
+    font-family: 'Raleway',sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 30px;
+    margin: 0 0 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
