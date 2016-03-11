@@ -1,0 +1,28 @@
+<!-- Ruben Timmermans, 10434542 -->
+
+<!doctype html>
+<!-- UNDER CONSTRUCTION!!! this is def not final code for assingment next week! -->
+<html>
+<head>
+	<title> Monthly rain in De Bilt (KNMI)</title>
+</head>
+<body>
+	<script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+	<script src = "barchart.js"></script>
+	<script type="text/javascript">
+		var datapoints = [10, 20, 30, 40, 50]
+
+		d3.select("body").selectAll("div")
+		    .data(datapoints)
+		    .enter()
+		    .append("div")
+		    .attr("class", "bar")
+		    .style("height", function(d) {
+		        var barHeight = d * 5;
+		        return barHeight + "px";
+    		});
+	</script>
+	<div>
+	</div>
+</body>
+</html>

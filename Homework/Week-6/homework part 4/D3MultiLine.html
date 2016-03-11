@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="D3MultiLine.css">
+<head>
+	<title> Temperatures in De Bilt (KNMI)</title>
+	<h1 align = "center"> Temperature in the Bilt</h1>
+</head>
+<body align = "center" background ="thermometer.jpg" id ="body_id">
+	<script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+	<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+	<script src="http://d3js.org/queue.v1.min.js"></script>
+	<script src = "D3MultiLine.js"></script>
+	<div align = "center">
+	    <input id ="year1" class = "button" type ="button" value = "2015" onclick ="clickme(this)"></input>
+	    <input id ="year2" class = "button" type = "button" value = "2014" onclick ="clickme(this)"></input>
+	</div>	
+	<div>
+		<svg class = "line"></svg>
+	</div>
+</body>
+</html>

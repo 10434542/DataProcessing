@@ -1,0 +1,35 @@
+	h1 {
+  		text-shadow: 2px 3px 5px;
+	}
+	.line text {
+	  fill: black;
+	  font: 10px sans-serif;
+	  text-anchor: end;
+	}
+	.line {
+		fill: none;
+		stroke: black;
+	}
+	.axis text {
+	font: 10px sans-serif;
+	fill: black;
+	}
+	.y.axis {
+		fill: black;
+	}
+
+	.axis path,
+	.axis line {
+	fill: none;
+	stroke: #000;
+	shape-rendering: crispEdges;
+	}
+	.overlay {
+	  fill: none;
+	  pointer-events: all;
+	}
+
+	.focus circle {
+	  fill: none;
+	  stroke: steelblue;
+	}
