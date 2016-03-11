@@ -77,12 +77,12 @@
 
         focus.append("text")
         .attr("x", 9)
-        .attr("dy", ".35em")
+        .attr("dy", ".35em");
 
         d3.select("svg").append("text").attr("class", "curDate")
         .attr("width", 40)
         .attr("height", 20)
-        .attr("transform", "translate("+2*margin.left+"," + 2*margin.top+")")
+        .attr("transform", "translate("+2*margin.left+"," + 2*margin.top+")");
 
         // Make path for crosshair
         svg.append("rect")
@@ -107,5 +107,5 @@
             focus.select("text").text(formatTemp(d.TempGem));
             d3.select(".curDate")
             .text(format_textbox((new Date(d.Dates))));
-        }
+        };
     });
