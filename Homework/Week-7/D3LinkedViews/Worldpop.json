@@ -1,0 +1,1002 @@
+[
+{
+"population": "84000",
+"Ccode": "AND"
+},
+{
+"population": "4975593",
+"Ccode": "ARE"
+},
+{
+"population": "29121286",
+"Ccode": "AFG"
+},
+{
+"population": "86754",
+"Ccode": "ATG"
+},
+{
+"population": "13254",
+"Ccode": "AIA"
+},
+{
+"population": "2986952",
+"Ccode": "ALB"
+},
+{
+"population": "2968000",
+"Ccode": "ARM"
+},
+{
+"population": "13068161",
+"Ccode": "AGO"
+},
+{
+"population": "0",
+"Ccode": "ATA"
+},
+{
+"population": "41343201",
+"Ccode": "ARG"
+},
+{
+"population": "57881",
+"Ccode": "ASM"
+},
+{
+"population": "8205000",
+"Ccode": "AUT"
+},
+{
+"population": "21515754",
+"Ccode": "AUS"
+},
+{
+"population": "71566",
+"Ccode": "ABW"
+},
+{
+"population": "26711",
+"Ccode": "ALA"
+},
+{
+"population": "8303512",
+"Ccode": "AZE"
+},
+{
+"population": "4590000",
+"Ccode": "BIH"
+},
+{
+"population": "285653",
+"Ccode": "BRB"
+},
+{
+"population": "156118464",
+"Ccode": "BGD"
+},
+{
+"population": "10403000",
+"Ccode": "BEL"
+},
+{
+"population": "16241811",
+"Ccode": "BFA"
+},
+{
+"population": "7148785",
+"Ccode": "BGR"
+},
+{
+"population": "738004",
+"Ccode": "BHR"
+},
+{
+"population": "9863117",
+"Ccode": "BDI"
+},
+{
+"population": "9056010",
+"Ccode": "BEN"
+},
+{
+"population": "8450",
+"Ccode": "BLM"
+},
+{
+"population": "65365",
+"Ccode": "BMU"
+},
+{
+"population": "395027",
+"Ccode": "BRN"
+},
+{
+"population": "9947418",
+"Ccode": "BOL"
+},
+{
+"population": "18012",
+"Ccode": "BES"
+},
+{
+"population": "201103330",
+"Ccode": "BRA"
+},
+{
+"population": "301790",
+"Ccode": "BHS"
+},
+{
+"population": "699847",
+"Ccode": "BTN"
+},
+{
+"population": "0",
+"Ccode": "BVT"
+},
+{
+"population": "2029307",
+"Ccode": "BWA"
+},
+{
+"population": "9685000",
+"Ccode": "BLR"
+},
+{
+"population": "314522",
+"Ccode": "BLZ"
+},
+{
+"population": "33679000",
+"Ccode": "CAN"
+},
+{
+"population": "628",
+"Ccode": "CCK"
+},
+{
+"population": "70916439",
+"Ccode": "COD"
+},
+{
+"population": "4844927",
+"Ccode": "CAF"
+},
+{
+"population": "3039126",
+"Ccode": "COG"
+},
+{
+"population": "7581000",
+"Ccode": "CHE"
+},
+{
+"population": "21058798",
+"Ccode": "CIV"
+},
+{
+"population": "21388",
+"Ccode": "COK"
+},
+{
+"population": "16746491",
+"Ccode": "CHL"
+},
+{
+"population": "19294149",
+"Ccode": "CMR"
+},
+{
+"population": "1330044000",
+"Ccode": "CHN"
+},
+{
+"population": "47790000",
+"Ccode": "COL"
+},
+{
+"population": "4516220",
+"Ccode": "CRI"
+},
+{
+"population": "11423000",
+"Ccode": "CUB"
+},
+{
+"population": "508659",
+"Ccode": "CPV"
+},
+{
+"population": "141766",
+"Ccode": "CUW"
+},
+{
+"population": "1500",
+"Ccode": "CXR"
+},
+{
+"population": "1102677",
+"Ccode": "CYP"
+},
+{
+"population": "10476000",
+"Ccode": "CZE"
+},
+{
+"population": "81802257",
+"Ccode": "DEU"
+},
+{
+"population": "740528",
+"Ccode": "DJI"
+},
+{
+"population": "5484000",
+"Ccode": "DNK"
+},
+{
+"population": "72813",
+"Ccode": "DMA"
+},
+{
+"population": "9823821",
+"Ccode": "DOM"
+},
+{
+"population": "34586184",
+"Ccode": "DZA"
+},
+{
+"population": "14790608",
+"Ccode": "ECU"
+},
+{
+"population": "1291170",
+"Ccode": "EST"
+},
+{
+"population": "80471869",
+"Ccode": "EGY"
+},
+{
+"population": "273008",
+"Ccode": "ESH"
+},
+{
+"population": "5792984",
+"Ccode": "ERI"
+},
+{
+"population": "46505963",
+"Ccode": "ESP"
+},
+{
+"population": "88013491",
+"Ccode": "ETH"
+},
+{
+"population": "5244000",
+"Ccode": "FIN"
+},
+{
+"population": "875983",
+"Ccode": "FJI"
+},
+{
+"population": "2638",
+"Ccode": "FLK"
+},
+{
+"population": "107708",
+"Ccode": "FSM"
+},
+{
+"population": "48228",
+"Ccode": "FRO"
+},
+{
+"population": "64768389",
+"Ccode": "FRA"
+},
+{
+"population": "1545255",
+"Ccode": "GAB"
+},
+{
+"population": "62348447",
+"Ccode": "GBR"
+},
+{
+"population": "107818",
+"Ccode": "GRD"
+},
+{
+"population": "4630000",
+"Ccode": "GEO"
+},
+{
+"population": "195506",
+"Ccode": "GUF"
+},
+{
+"population": "65228",
+"Ccode": "GGY"
+},
+{
+"population": "24339838",
+"Ccode": "GHA"
+},
+{
+"population": "27884",
+"Ccode": "GIB"
+},
+{
+"population": "56375",
+"Ccode": "GRL"
+},
+{
+"population": "1593256",
+"Ccode": "GMB"
+},
+{
+"population": "10324025",
+"Ccode": "GIN"
+},
+{
+"population": "443000",
+"Ccode": "GLP"
+},
+{
+"population": "1014999",
+"Ccode": "GNQ"
+},
+{
+"population": "11000000",
+"Ccode": "GRC"
+},
+{
+"population": "30",
+"Ccode": "SGS"
+},
+{
+"population": "13550440",
+"Ccode": "GTM"
+},
+{
+"population": "159358",
+"Ccode": "GUM"
+},
+{
+"population": "1565126",
+"Ccode": "GNB"
+},
+{
+"population": "748486",
+"Ccode": "GUY"
+},
+{
+"population": "6898686",
+"Ccode": "HKG"
+},
+{
+"population": "0",
+"Ccode": "HMD"
+},
+{
+"population": "7989415",
+"Ccode": "HND"
+},
+{
+"population": "4491000",
+"Ccode": "HRV"
+},
+{
+"population": "9648924",
+"Ccode": "HTI"
+},
+{
+"population": "9982000",
+"Ccode": "HUN"
+},
+{
+"population": "242968342",
+"Ccode": "IDN"
+},
+{
+"population": "4622917",
+"Ccode": "IRL"
+},
+{
+"population": "7353985",
+"Ccode": "ISR"
+},
+{
+"population": "75049",
+"Ccode": "IMN"
+},
+{
+"population": "1173108018",
+"Ccode": "IND"
+},
+{
+"population": "4000",
+"Ccode": "IOT"
+},
+{
+"population": "29671605",
+"Ccode": "IRQ"
+},
+{
+"population": "76923300",
+"Ccode": "IRN"
+},
+{
+"population": "308910",
+"Ccode": "ISL"
+},
+{
+"population": "60340328",
+"Ccode": "ITA"
+},
+{
+"population": "90812",
+"Ccode": "JEY"
+},
+{
+"population": "2847232",
+"Ccode": "JAM"
+},
+{
+"population": "6407085",
+"Ccode": "JOR"
+},
+{
+"population": "127288000",
+"Ccode": "JPN"
+},
+{
+"population": "40046566",
+"Ccode": "KEN"
+},
+{
+"population": "5776500",
+"Ccode": "KGZ"
+},
+{
+"population": "14453680",
+"Ccode": "KHM"
+},
+{
+"population": "92533",
+"Ccode": "KIR"
+},
+{
+"population": "773407",
+"Ccode": "COM"
+},
+{
+"population": "51134",
+"Ccode": "KNA"
+},
+{
+"population": "22912177",
+"Ccode": "PRK"
+},
+{
+"population": "48422644",
+"Ccode": "KOR"
+},
+{
+"population": "2789132",
+"Ccode": "KWT"
+},
+{
+"population": "44270",
+"Ccode": "CYM"
+},
+{
+"population": "15340000",
+"Ccode": "KAZ"
+},
+{
+"population": "6368162",
+"Ccode": "LAO"
+},
+{
+"population": "4125247",
+"Ccode": "LBN"
+},
+{
+"population": "160922",
+"Ccode": "LCA"
+},
+{
+"population": "35000",
+"Ccode": "LIE"
+},
+{
+"population": "21513990",
+"Ccode": "LKA"
+},
+{
+"population": "3685076",
+"Ccode": "LBR"
+},
+{
+"population": "1919552",
+"Ccode": "LSO"
+},
+{
+"population": "2944459",
+"Ccode": "LTU"
+},
+{
+"population": "497538",
+"Ccode": "LUX"
+},
+{
+"population": "2217969",
+"Ccode": "LVA"
+},
+{
+"population": "6461454",
+"Ccode": "LBY"
+},
+{
+"population": "31627428",
+"Ccode": "MAR"
+},
+{
+"population": "32965",
+"Ccode": "MCO"
+},
+{
+"population": "4324000",
+"Ccode": "MDA"
+},
+{
+"population": "666730",
+"Ccode": "MNE"
+},
+{
+"population": "35925",
+"Ccode": "MAF"
+},
+{
+"population": "21281844",
+"Ccode": "MDG"
+},
+{
+"population": "65859",
+"Ccode": "MHL"
+},
+{
+"population": "2062294",
+"Ccode": "MKD"
+},
+{
+"population": "13796354",
+"Ccode": "MLI"
+},
+{
+"population": "53414374",
+"Ccode": "MMR"
+},
+{
+"population": "3086918",
+"Ccode": "MNG"
+},
+{
+"population": "449198",
+"Ccode": "MAC"
+},
+{
+"population": "53883",
+"Ccode": "MNP"
+},
+{
+"population": "432900",
+"Ccode": "MTQ"
+},
+{
+"population": "3205060",
+"Ccode": "MRT"
+},
+{
+"population": "9341",
+"Ccode": "MSR"
+},
+{
+"population": "403000",
+"Ccode": "MLT"
+},
+{
+"population": "1294104",
+"Ccode": "MUS"
+},
+{
+"population": "395650",
+"Ccode": "MDV"
+},
+{
+"population": "15447500",
+"Ccode": "MWI"
+},
+{
+"population": "112468855",
+"Ccode": "MEX"
+},
+{
+"population": "28274729",
+"Ccode": "MYS"
+},
+{
+"population": "22061451",
+"Ccode": "MOZ"
+},
+{
+"population": "2128471",
+"Ccode": "NAM"
+},
+{
+"population": "216494",
+"Ccode": "NCL"
+},
+{
+"population": "15878271",
+"Ccode": "NER"
+},
+{
+"population": "1828",
+"Ccode": "NFK"
+},
+{
+"population": "154000000",
+"Ccode": "NGA"
+},
+{
+"population": "5995928",
+"Ccode": "NIC"
+},
+{
+"population": "16645000",
+"Ccode": "NLD"
+},
+{
+"population": "5009150",
+"Ccode": "NOR"
+},
+{
+"population": "28951852",
+"Ccode": "NPL"
+},
+{
+"population": "10065",
+"Ccode": "NRU"
+},
+{
+"population": "2166",
+"Ccode": "NIU"
+},
+{
+"population": "4252277",
+"Ccode": "NZL"
+},
+{
+"population": "2967717",
+"Ccode": "OMN"
+},
+{
+"population": "3410676",
+"Ccode": "PAN"
+},
+{
+"population": "29907003",
+"Ccode": "PER"
+},
+{
+"population": "270485",
+"Ccode": "PYF"
+},
+{
+"population": "6064515",
+"Ccode": "PNG"
+},
+{
+"population": "99900177",
+"Ccode": "PHL"
+},
+{
+"population": "184404791",
+"Ccode": "PAK"
+},
+{
+"population": "38500000",
+"Ccode": "POL"
+},
+{
+"population": "7012",
+"Ccode": "SPM"
+},
+{
+"population": "46",
+"Ccode": "PCN"
+},
+{
+"population": "3916632",
+"Ccode": "PRI"
+},
+{
+"population": "3800000",
+"Ccode": "PSE"
+},
+{
+"population": "10676000",
+"Ccode": "PRT"
+},
+{
+"population": "19907",
+"Ccode": "PLW"
+},
+{
+"population": "6375830",
+"Ccode": "PRY"
+},
+{
+"population": "840926",
+"Ccode": "QAT"
+},
+{
+"population": "776948",
+"Ccode": "REU"
+},
+{
+"population": "21959278",
+"Ccode": "ROU"
+},
+{
+"population": "7344847",
+"Ccode": "SRB"
+},
+{
+"population": "140702000",
+"Ccode": "RUS"
+},
+{
+"population": "11055976",
+"Ccode": "RWA"
+},
+{
+"population": "25731776",
+"Ccode": "SAU"
+},
+{
+"population": "559198",
+"Ccode": "SLB"
+},
+{
+"population": "88340",
+"Ccode": "SYC"
+},
+{
+"population": "35000000",
+"Ccode": "SDN"
+},
+{
+"population": "9828655",
+"Ccode": "SWE"
+},
+{
+"population": "4701069",
+"Ccode": "SGP"
+},
+{
+"population": "7460",
+"Ccode": "SHN"
+},
+{
+"population": "2007000",
+"Ccode": "SVN"
+},
+{
+"population": "2550",
+"Ccode": "SJM"
+},
+{
+"population": "5455000",
+"Ccode": "SVK"
+},
+{
+"population": "5245695",
+"Ccode": "SLE"
+},
+{
+"population": "31477",
+"Ccode": "SMR"
+},
+{
+"population": "12323252",
+"Ccode": "SEN"
+},
+{
+"population": "10112453",
+"Ccode": "SOM"
+},
+{
+"population": "492829",
+"Ccode": "SUR"
+},
+{
+"population": "8260490",
+"Ccode": "SSD"
+},
+{
+"population": "175808",
+"Ccode": "STP"
+},
+{
+"population": "6052064",
+"Ccode": "SLV"
+},
+{
+"population": "37429",
+"Ccode": "SXM"
+},
+{
+"population": "22198110",
+"Ccode": "SYR"
+},
+{
+"population": "1354051",
+"Ccode": "SWZ"
+},
+{
+"population": "20556",
+"Ccode": "TCA"
+},
+{
+"population": "10543464",
+"Ccode": "TCD"
+},
+{
+"population": "140",
+"Ccode": "ATF"
+},
+{
+"population": "6587239",
+"Ccode": "TGO"
+},
+{
+"population": "67089500",
+"Ccode": "THA"
+},
+{
+"population": "7487489",
+"Ccode": "TJK"
+},
+{
+"population": "1466",
+"Ccode": "TKL"
+},
+{
+"population": "1154625",
+"Ccode": "TLS"
+},
+{
+"population": "4940916",
+"Ccode": "TKM"
+},
+{
+"population": "10589025",
+"Ccode": "TUN"
+},
+{
+"population": "122580",
+"Ccode": "TON"
+},
+{
+"population": "77804122",
+"Ccode": "TUR"
+},
+{
+"population": "1228691",
+"Ccode": "TTO"
+},
+{
+"population": "10472",
+"Ccode": "TUV"
+},
+{
+"population": "22894384",
+"Ccode": "TWN"
+},
+{
+"population": "41892895",
+"Ccode": "TZA"
+},
+{
+"population": "45415596",
+"Ccode": "UKR"
+},
+{
+"population": "33398682",
+"Ccode": "UGA"
+},
+{
+"population": "0",
+"Ccode": "UMI"
+},
+{
+"population": "310232863",
+"Ccode": "USA"
+},
+{
+"population": "3477000",
+"Ccode": "URY"
+},
+{
+"population": "27865738",
+"Ccode": "UZB"
+},
+{
+"population": "921",
+"Ccode": "VAT"
+},
+{
+"population": "104217",
+"Ccode": "VCT"
+},
+{
+"population": "27223228",
+"Ccode": "VEN"
+},
+{
+"population": "21730",
+"Ccode": "VGB"
+},
+{
+"population": "108708",
+"Ccode": "VIR"
+},
+{
+"population": "89571130",
+"Ccode": "VNM"
+},
+{
+"population": "221552",
+"Ccode": "VUT"
+},
+{
+"population": "16025",
+"Ccode": "WLF"
+},
+{
+"population": "192001",
+"Ccode": "WSM"
+},
+{
+"population": "1800000",
+"Ccode": "XKX"
+},
+{
+"population": "23495361",
+"Ccode": "YEM"
+},
+{
+"population": "159042",
+"Ccode": "MYT"
+},
+{
+"population": "49000000",
+"Ccode": "ZAF"
+},
+{
+"population": "13460305",
+"Ccode": "ZMB"
+},
+{
+"population": "11651858",
+"Ccode": "ZWE"
+}
+]

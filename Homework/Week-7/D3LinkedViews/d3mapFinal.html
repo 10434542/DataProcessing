@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+	<head>
+		<!-- I had very weird issues with loading the css stylesheet
+			 Whenever I adjusted the sheet it did not load the renewed sheet...
+			 Hence the ugly styling beneath -->
+		<style>
+		h1{
+		    color: white;
+		    font-family: 'Raleway',sans-serif;
+		    font-size: 20px;
+		    font-weight: 800;
+		    line-height: 20px;
+		    margin: 0 0 24px;
+		    text-align: center;
+		    text-transform: uppercase;
+		}
+		p{
+		    color: white;
+		    font-family: 'Raleway',sans-serif;
+		    font-size: 12px;
+		    font-weight: 700;
+		    line-height: 10px;
+		    margin: 0 0 10px;
+		    text-align: center;
+		    text-transform: uppercase;
+		}
+		body {
+			background-repeat: no-repeat;
+    		background-attachment: fixed;
+		}  
+		.axis path,
+		.axis line {
+		  fill: none;
+		  stroke: #000;
+		  shape-rendering: crispEdges;
+		}
+
+		.bar {
+		  fill: #ef3b2c;
+		  width: 50px
+		}
+
+		.bar:hover {
+		  fill: red ;
+		}
+		.y.axis,
+		.x.axis {
+			font-size: 10px;
+		}
+
+		.d3-tip {
+		line-height: 1;
+		font-weight: bold;
+		padding: 12px;
+		background: rgba(0, 0, 0, 0.8);
+		color: #fff;
+		border-radius: 2px;
+		}
+
+		/* Creates a small triangle extender for the tooltip */
+		.d3-tip:after {
+		box-sizing: border-box;
+		display: inline;
+		font-size: 10px;
+		width: 100%;
+		line-height: 1;
+		color: rgba(0, 0, 0, 0.8);
+		content: "\25BC";
+		position: absolute;
+		text-align: center;
+		}
+		.d3-tip.n:after {
+		margin: -1px 0 0 0;
+		top: 100%;
+		left: 0;
+		}
+
+		</style>
+		<div align = "center">
+			<h1>
+				<br>World population (density) in 2014</br>
+				<br>Ruben Timmermans</br>
+				<br>Student-id: 10434542</br>
+			</h1>
+		</div>
+		<div align = "center">
+			<p>
+				<br>In this visualization, for each country, the population density of 2014 is mapped to different shades of red.</br>
+				<br>If a country is clicked a bar chart pops up beneath the datamap containing data (from 2006-2013)</br>
+				<br>on the income per capita converted to US dollars. Sources:</br>
+				<br> World population: Github (reference in js file</br>
+				<br> World population density: Github (reference in js file)</br>
+				<br> Income per capita: World Databank</br>
+
+			</p>
+		</div>
+	</head>
+	<body background="world.jpg">
+		<script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
+		<script src="http://d3js.org/queue.v1.min.js"></script>
+		<script src="/datamaps.world.min.js"></script>
+		<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+		<div align = "center">
+			<div id="container" style="position: relative; width: 1300px; height: 700px;"></div>
+		</div>
+		<div align = "center">
+			<p>
+				<br> To see the total population of 2014 click on the button below</br>
+			</p>
+		</div>
+		<div align = "center">
+		    <input id ="year1" class = "button" type ="button" value = "Density"  onclick ="clickme(this)"></input>
+		    <input id ="year2" class = "button" type = "button" value = "Population"  onclick ="clickme(this)"></input>
+		</div>	
+		<div align = "center">
+			<svg class = "chart"></svg>
+		</div>
+		<script src = "D3mapFinal.js"></script>
+	</body>
+</html>
