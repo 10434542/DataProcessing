@@ -115,7 +115,7 @@ thx Kim.
 	.defer(d3.json, 'Worldpop.json')
 	.await(makeInfographs);
 
-	// Dummy list to
+	// Makes the datamap
 	function makeInfographs(error, json1, json2, json3) {
 		data1 = json1;
 		data2 = json2;
@@ -334,7 +334,7 @@ thx Kim.
 		.attr("dy", ".71em")
 		.style("text-anchor", "end")
 		.text("Income per Capita (US Dollars)");
-
+	// Note: replaced barwidth with 6 at attr(x)
 		chart.selectAll(".bar")
 		.data(data_y)
 		.enter().append("rect")
